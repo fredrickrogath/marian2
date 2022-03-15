@@ -8,11 +8,11 @@
     <div class="sm:py-3 py-1">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="overflow-hidden sm:rounded-lg">
-                
+
                 {{-- Dashboard --}}
 
                 <div class="sm:w-full flex">
-{{-- 
+{{--
                   <div @click.away="open = false" class="relative" x-data="{ open: false }">
                     <button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:block hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                       <span>Dropdown</span>
@@ -68,7 +68,7 @@
                                 </a>
                               </li>
                               <li>
-                
+
                             <li>
                               <a href="{{url('/MarianGirls_Alumni_Chats')}}" class="relative flex flex-row items-center h-9 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 @if( $navigations == 'messages') {{ $navigate_class }} @endif pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
@@ -79,13 +79,13 @@
                               </a>
                             </li>
 
-                            
+
                             <li class="px-5">
                               <div class="flex flex-row items-center h-9">
                                 <div class="text-sm font-light tracking-wide text-gray-500">Settings</div>
                               </div>
                             </li>
-                 
+
                               <a href="#" class="relative flex flex-row items-center h-9 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +119,7 @@
                         @elseif ( $navigations == 'register')
 
                         @include('navigations.register')
-                            
+
                         @elseif( $navigations == 'inbox')
 
                         @include('navigations.inbox')
@@ -134,8 +134,8 @@
 
                         @elseif ( $navigations == 'tasks')
 
-                        @include('navigations.tasks')                        
-                            
+                        @include('navigations.tasks')
+
                         @endif
 
                       </div>

@@ -1,31 +1,31 @@
 <!doctype html>
 <html lang="en">
-  
+
 <!-- Mirrored from yevgenysim.github.io/touche/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Nov 2021 16:38:34 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- Favicon -->
-   
+
     <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/AR.png">
-  
+
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Libs CSS -->
     <link rel="stylesheet" href="assets/css/libs.bundle.css" />
-    
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/css/theme.bundle.css" />
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="../../fonts.gstatic.com/index.html">
     <link href="../../fonts.googleapis.com/css2a2ea.css?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-    
+
     <!-- Map -->
     <link rel='stylesheet' href='../../api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' />
-    
+
     <!-- Title -->
     <title>Marian Alumni Association</title>
   </head>
@@ -34,18 +34,18 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
       <div class="container">
-    
+
         <!-- Navbar brand (mobile) -->
         <a class="navbar-brand d-lg-none" href="index-2.html"><img class="img-rounded" width="100px" src="{{asset('assets/logo/emblem.png')}}" alt="" srcset=""></a>
-    
+
         <!-- Navbar toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
+
         <!-- Navbar collapse -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-    
+
           <!-- Navbar nav -->
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -55,12 +55,12 @@
               <a class="nav-link " href="menu.html">Menu</a>
             </li>
           </ul>
-    
+
           <!-- Navbar brand -->
           <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="">
             <img class="img-rounded" width="100px" src="" alt="" srcset="">
           </a>
-    
+
           <!-- Navbar nav -->
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -73,7 +73,7 @@
               <a class="nav-link " href="contact-us.html">Contact</a>
             </li> --}}
           </ul>
-    
+
         </div>
       </div>
     </nav>
@@ -155,25 +155,25 @@
       <div class="container px-4">
         <div class="row gx-7">
           <div class="col-sm-4">
-    
+
             <!-- Heading -->
             <h5 class="text-xs text-primary">
               About Us
             </h5>
-    
+
             <!-- Text -->
             <p class="mb-6">
               This website by launched by Marian Girls High School Alumni whose aim is to support Tanzania education to the young generation and celebrate every achievements associated with it.
             </p>
-    
+
           </div>
           <div class="col-sm-4">
-    
+
             <!-- Heading -->
             <h5 class="text-xs text-primary">
               Contact info
             </h5>
-    
+
             <!-- List -->
             <ul class="list-unstyled mb-6">
               <li class="d-flex mb-2">
@@ -188,44 +188,44 @@
                 <div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:admin@domain.com">mariamCommunity@gmail.com</a>
               </li>
             </ul>
-    
+
           </div>
           <div class="col-sm-4">
-    
+
             <!-- Heading -->
             <h5 class="text-xs text-primary">
               Associated By
             </h5>
-    
+
             <!-- Text -->
             <div class="mb-3">
-              <div class="">Fredrick <span class="text-primary">Shayo</span></div>
+              {{-- <div class="">Fredrick <span class="text-primary">Shayo</span></div> --}}
               <div class=""><span class="text-primary">Dwight</span> Danda</div>
               <div class="font-serif text-xs">Developers</div>
             </div>
-    
+
             <!-- Text -->
             {{-- <div class="mb-6">
               <div class="text-xs">Friday - Sunday</div>
               <div class="font-serif">12:00 AM - 03:00 AM</div>
             </div> --}}
-    
+
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-    
+
             <!-- Copyright -->
             <div class="d-flex align-items-center">
               <hr class="hr-sm me-3" style="height: 1px;" /> &copy; 2021 Marian Alumni Association. All rights reserved.
             </div>
-    
+
           </div>
         </div>
       </div>
     </footer>
-    
-    
+
+
     <!--  -->
     <!-- TOAST -->
     <div class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5" id="notification" role="alert" aria-live="assertive" aria-atomic="true">
@@ -237,7 +237,7 @@
     <!-- JAVASCRIPT -->
     <!-- Vendor JS -->
     <script src="assets/js/vendor.bundle.js"></script>
-    
+
     <!-- Theme JS -->
     <script src="assets/js/theme.bundle.js"></script>
 
