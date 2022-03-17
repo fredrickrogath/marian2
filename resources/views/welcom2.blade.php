@@ -200,8 +200,8 @@
             <!-- Text -->
             <div class="mb-3">
               {{-- <div class="">Fredrick <span class="text-primary">Shayo</span></div> --}}
-              <div class=""><span class="text-primary">Dwight</span> Danda</div>
-              <div class="font-serif text-xs">Developers</div>
+              {{-- <div class=""><span class="text-primary">Fredrick</span> Shayo</div>
+              <div class="font-serif text-xs">Developers</div> --}}
             </div>
 
             <!-- Text -->
